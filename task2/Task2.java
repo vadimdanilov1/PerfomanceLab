@@ -9,7 +9,7 @@ public class Task2 {
     public static void main(String[] args) throws IOException {
 
 
-        File file = new File("array.txt");
+        File file = new File("path_to_file.txt");
         Scanner scanner = new Scanner(file);
         List<Integer> numbers = new ArrayList<>();
         while (scanner.hasNext()) {
@@ -26,7 +26,7 @@ public class Task2 {
 
         /////////////////////////////////////////////////////////////////////
 //        arr = {1, 10, 2, 9};
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
