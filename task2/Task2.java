@@ -9,7 +9,7 @@ public class Task2 {
     public static void main(String[] args) throws IOException {
 
 
-        File file = new File("path_to_file.txt");
+        File file = new File("array.txt");
         Scanner scanner = new Scanner(file);
         List<Integer> numbers = new ArrayList<>();
         while (scanner.hasNext()) {
